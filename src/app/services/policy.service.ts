@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Policy } from '../../policy.model';
+import { Policy } from '../models';
 
 @Injectable()
 export class PolicyService {
@@ -13,7 +13,7 @@ export class PolicyService {
   }
 
 getPolicies() {
-    return this.firestore.collection('policies').snapshotChanges();
+    return this.firestore.collection('quotes').snapshotChanges();
 }
 
 createPolicy(policy: Policy){

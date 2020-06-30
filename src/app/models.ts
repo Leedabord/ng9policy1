@@ -1,4 +1,6 @@
 export class Policy {
+  qtext: string;
+  origin: string;
     id: string;
     policyNumber: string;
     creationDate: Date;
