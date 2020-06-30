@@ -17,16 +17,16 @@ getPolicies() {
 }
 
 createPolicy(policy: Policy){
-    return this.firestore.collection('policies').add(policy);
+    return this.firestore.collection('quotes').add(policy);
 }
 
 updatePolicy(policy: Policy){
     delete policy.id;
-    this.firestore.doc('policies/' + policy.id).update(policy);
+    this.firestore.doc('quotes/' + policy.id).update(policy);
 }
 
 deletePolicy(policyId: string){
-    this.firestore.doc('policies/' + policyId).delete();
+    this.firestore.doc('quotes/' + policyId).delete();
 }
 
 }
