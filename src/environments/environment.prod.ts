@@ -1,6 +1,25 @@
 export const environment = {
   production: true,
     firebaseConfig : {
+  apiKey: "AIzaSyAvB4R09YDHtfxOW7C3OQNLUGi9ce4qrws",
+  authDomain: "todo-firebase-17b28.firebaseapp.com",
+  databaseURL: "https://todo-firebase-17b28.firebaseio.com",
+  projectId: "todo-firebase-17b28",
+  storageBucket: "todo-firebase-17b28.appspot.com",
+  messagingSenderId: "62533171737",
+  appId: "1:62533171737:web:44045ffb6a9f46327e8888"
+  }
+};
+
+/*
+  apiKey: "AIzaSyAvB4R09YDHtfxOW7C3OQNLUGi9ce4qrws",
+  authDomain: "todo-firebase-17b28.firebaseapp.com",
+  databaseURL: "https://todo-firebase-17b28.firebaseio.com",
+  projectId: "todo-firebase-17b28",
+  storageBucket: "todo-firebase-17b28.appspot.com",
+  messagingSenderId: "62533171737",
+  appId: "1:62533171737:web:44045ffb6a9f46327e8888"
+
   apiKey: "AIzaSyCU2riEO-VTzLdoB1SCWd64vcE6D-lYffM",
   authDomain: "slashdev01.firebaseapp.com",
   databaseURL: "https://slashdev01.firebaseio.com",
@@ -9,10 +28,7 @@ export const environment = {
   messagingSenderId: "606100177398",
   appId: "1:606100177398:web:05d631067dca5b65fd47d7",
   measurementId: "G-GR8R4S2ZVT"
-  }
-};
 
-/*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
