@@ -29,6 +29,15 @@ export const environment = {
   appId: "1:606100177398:web:05d631067dca5b65fd47d7",
   measurementId: "G-GR8R4S2ZVT"
 
+  apiKey: "AIzaSyB8ghUPLAUsJ81uSRHM8GYzvMWRP8rC5tM",
+  authDomain: "gwfl007.firebaseapp.com",
+  databaseURL: "https://gwfl007.firebaseio.com",
+  projectId: "gwfl007",
+  storageBucket: "gwfl007.appspot.com",
+  messagingSenderId: "675948798794",
+  appId: "1:675948798794:web:2deea608cd10a4c35457b3",
+  measurementId: "G-G109WPZYWJ"
+
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
